@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>My Happy Travel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="loginPage.css"
+    />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <br /><br />
+    <div>
+      <div class="well well-sm" id="pagename">
+        <h2 style="color: white" class="welcomeTxt">Welcome</h2>
+      </div>
+    </div>
+    <br /><br />
+    <div class="container" id="container">
+      <div class="form-container sign-in-container">
+        <form>
+          <h1>Login</h1>
+
+          <input type="email" placeholder="Email" required />
+
+          <input type="password" placeholder="Password" required />
+
+          <button id="signUp" onclick="onLogin()">Login</button>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-right">
+            <h1>Registration</h1>
+            <p>Register yourself and start your journey with us.</p>
+            <button class="ghost" id="signUp">Register</button>
+          </div>
+        </div>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-right">
+            <h1>Registration</h1>
+            <p>Register yourself and start your journey with us.</p>
+            <button class="ghost" id="signUp">Register</button>
+          </div>
+        </div>
+      </div>
+      <div class="form-container sign-up-container">
+        <form>
+          <h1>Register</h1>
+          <input type="text" placeholder="Name" required />
+          <input type="number" placeholder="Phone" required />
+          <input type="date" placeholder="Date Of Birth" required />
+          <button id="signUp" onclick="onRegister()">Register</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
